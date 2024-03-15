@@ -1,4 +1,5 @@
 import os
+os.system("playwright install")
 from PIL import Image
 import streamlit as st
 from lyzr import ChatBot
