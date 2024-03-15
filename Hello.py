@@ -4,8 +4,9 @@ import streamlit as st
 from lyzr import ChatBot
 import nest_asyncio
 from typing import Union
+import openai
 
-os.environ['OPENAI_API_KEY'] = st.secrets["apikey"]
+openai.api_key= st.secrets["apikey"]
 
 # Apply nest_asyncio
 nest_asyncio.apply()
