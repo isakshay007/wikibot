@@ -2,14 +2,14 @@ import os
 from PIL import Image
 import streamlit as st
 from lyzr import ChatBot
-import nest_asyncio
-from typing import Union
+#import nest_asyncio
+#from typing import Union
 import openai
 
 openai.api_key= st.secrets["apikey"]
 
 # Apply nest_asyncio
-nest_asyncio.apply()
+#nest_asyncio.apply()
 
 # Custom function to style the app
 def style_app():
