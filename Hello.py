@@ -7,7 +7,7 @@ import nest_asyncio
 #from typing import Union
 import openai
 
-openai.api_key= st.secrets["apikey"]
+os.environ["OPENAI_API_KEY"] = st.secrets["apikey"]
 
 # Apply nest_asyncio
 nest_asyncio.apply()
