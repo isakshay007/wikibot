@@ -3,6 +3,7 @@ from PIL import Image
 import streamlit as st
 from lyzr import ChatBot
 import nest_asyncio
+from typing import Union
 
 os.environ['OPENAI_API_KEY'] = st.secrets["apikey"]
 
