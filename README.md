@@ -1,2 +1,1 @@
-Add this to the git ingnore file while starting 
-.streamlit/secrets.toml
+WikiBot enables seamless interaction with Wikipedia through chatbots powered by the LYZR SDK. Effortlessly explore topics, utilize pre-defined prompts for summaries, and pose inquiries directly within your browser. For inquiries or assistance, reach out to Lyzr.
